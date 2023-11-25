@@ -4,7 +4,7 @@
 
 ## Flag 
 
-NULL{/flag = steg:found:key:M0xA}
+NULL{steg:found:M0xA}
 
 ## Setup 
 
@@ -23,4 +23,4 @@ Stego File Name: star_wars_stego_image.png (2.22MB)
 Challenge Author: Tharun R 
 Github Username: IHac-er
 
-Flag of the challenege = NULL{/flag = steg:found:key:M0xA}
+Flag of the challenege = NULL{steg:found:M0xA}
