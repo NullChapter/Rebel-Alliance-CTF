@@ -92,7 +92,7 @@ After running this command, your server should be listening on the port specifie
 ### HINTS:
 
 
-#### 1. Unlock the secret with patience and persistence. The key lies in trying every possible combination, but remember, efficiency is key. Think about what makes sense in the context of the challenge and explore systematically. (-10)
-#### 2. Uncover the secret in the JWT by understanding common practices in key generation. (-5)
-#### 3. Brute force the secret key; it's a 3-digit key. (-30)
+#### 1. "May the Force be with you as you unravel the secret. Patience, persistence, and a Jedi's calm mind are your allies. Attempt each combination, but efficiency matters. Use the Force to guide your systematic exploration." (-10)
+#### 2.  "Decrypt the secret within the Jedi's encrypted holocron by delving into the art of key generation in the Force. Common practices hold the wisdom you seek. Trust the Force to reveal the way." (-5)
+#### 3.  "Use the strength of the Dark Side to brute force the secret, a 3-digit Sith passcode. Channel your inner Sith Lord and let no combination escape your power." (-30)
 
