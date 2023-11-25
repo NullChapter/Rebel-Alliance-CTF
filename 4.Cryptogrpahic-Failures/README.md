@@ -27,8 +27,8 @@ iv)Atlast apply Caeser shift cipher to find the flag.
 NULL{hothrebelbase}
 
 ## Setup
-The password only consists of alphabets in length of 9/26.
+The password only consists of alphabets in the length of ennead.
 
-[Download Zip File]
+[Download Zip File](https://github.com/NullChapter/Rebel-Alliance-CTF/blob/main/4.Cryptogrpahic-Failures/zipping.zip)
 
 Hint: alpha -l 9
