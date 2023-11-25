@@ -4,7 +4,7 @@
 
 ## Flag 
 
-NULL{/flag = steg:found:key:M0xA}
+NULL{steg:found:M0xA}
 
 ## Setup 
 
