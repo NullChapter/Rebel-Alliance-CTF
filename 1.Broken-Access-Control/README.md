@@ -86,7 +86,7 @@ After running this command, your server should be listening on the port specifie
 ### Flag:
 
 ```
-`NULL{YOU_NOW_HAVE_AN_UNDERSTANDING_OF_JWT}`
+`NULL{FINALLY_YOU_UNDERSTOOD_JWT}`
 ```
 ---
 ### HINTS:
