@@ -25,8 +25,6 @@ To install the necessary npm libraries, run the following command in your termin
 
 ```bash
 npm install
-```
-
 
 ```
 
@@ -40,19 +38,15 @@ PORT="3555"
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = "DarkSideNoMore"
 SECRET = "123"
-DB_PORT = "5433"
+DB_PORT = "5432"
 DB_USERNAME = "postgres"
 DB_HOST = "localhost"
 DB_NAME = "wierd-securitatis"
 DB_PASSWORD = "123"
-```
 
 ### Step 3: Initialize the Database
 
 Run `initDB.js` to initialize the database using the following command:
-
-
-Ensure that your Postgres database is up and running before executing the script.
 
 ### Step 4: Start the Express.js Server
 
