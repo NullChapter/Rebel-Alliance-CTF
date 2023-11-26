@@ -430,9 +430,9 @@ Few of the key features of the current suite are:
 
 
 class App:
-    logged_in = False
 
     async def root_main(self, page: ft.Page):
+        self.logged_in = False
         page.title = "Insecure Design"
         page.auto_scroll = True
         page.theme = ft.Theme(
@@ -447,7 +447,7 @@ class App:
 
         await page.client_storage.clear_async()
 
-        landing = LoginView(App)
+        landing = LoginView(self)
         account_creation = CreateAccountView()
         hint = HintView()
 
@@ -456,11 +456,10 @@ class App:
             page.views.append(landing)
             if page.route == "/create-account":
                 page.views.append(account_creation)
-            elif page.route == "/hint":
-                if App.logged_in:  # Change this!
+            elif page.route == "/hint" and self.logged_in:
                     page.views.append(hint)
-                else:
-                    await page.go_async("/")
+            else:
+                await page.go_async("/")
 
             await page.update_async()
 
