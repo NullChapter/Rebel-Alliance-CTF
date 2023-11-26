@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-image: url("https://wallpapercave.com/wp/wp5207820.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      color: aliceblue;
+      text-align: center; 
+      align-items: center;
+    }
+
+    form {
+      max-width: 400px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center; 
+      margin-top: 20px; 
+    }
+
+    h1 {
+      color: white;
+      text-align: left;
+    }
+
+    .box1 {
+      text-align: center; 
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #c11515;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .over{
+      max-width: 400px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center; 
+      margin-top: 20px;
+    }
+    .h1{
+      color: #fff;
+      text-align: left;
+    }
+    .ov{
+      text-align: left;
+      align-items: center;
+    }
+  </style>
+  
+  <title>Imperial Support</title>
+</head>
+<body>
+  
+  <%- include('navbar'); -%>
+    <div class="form">
+      <div class="ov">
+        <h2>Raise a support ticket</h2>
+        <form onsubmit="uploadData()">
+          <input id="input" placeholder="Enter your issue here" value="" />
+          <button type="submit">Submit ticket</button>
+        </form>
+      </div>
+    </div>
+</body>
+
+<script>
+  const tokenField = document.getElementById('input');
+
+  async function uploadData() {
+    const data = JSON.stringify({ticket: tokenField.value})
+    const response = await fetch("/upload", {
+      method: "POST", 
+      headers: {"Content-Type": "application/json"},
+      body: data
+    })
+    console.log(data)
+    const result_data = await response.json();
+    if (result_data.message === "success") {
+      window.alert(`Your support ticket ${tokenField.value} has been uploaded successfully.`);
+    } else {
+      window.alert("Your support ticket couldn't be uploaded.");
+    }
+  }
+</script>
+</html>
