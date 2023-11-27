@@ -1,6 +1,5 @@
 # Cryptogrpahic-Failures
 
-## 1.
 ## Storyline 
 
 ## Flag 
@@ -20,15 +19,3 @@ ii)With the decrypted text use vigenere cipher and decrypt ot using the key "For
 iii)Further apply Rail fence cipher:3 to enter into the final level
 
 iv)Atlast apply Caeser shift cipher to find the flag.
-
-
-## 2.
-## Flag
-NULL{hothrebelbase}
-
-## Setup
-The password only consists of alphabets in the length of ennead.
-
-[Download Zip File](https://github.com/NullChapter/Rebel-Alliance-CTF/blob/main/4.Cryptogrpahic-Failures/zipping.zip)
-
-Hint: alpha -l 9
