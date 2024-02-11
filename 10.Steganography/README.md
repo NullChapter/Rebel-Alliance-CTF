@@ -24,6 +24,8 @@ _How to decode it?_
 3. We can use Python to read the file and inspect it for the flag. 
 4. We can use online tools (not recommended)
 
+After opening the image in a textual format we can find a binary text which needs to be convereted to normal text to get the flag. 
+
 _Hints_
 The flag is hidden in plain sight and just needs some basic inspection.
 
