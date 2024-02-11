@@ -18,20 +18,17 @@
     form {
       max-width: 400px;
       padding: 20px;
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(0, 0, 0, 0.8);
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center; 
-      margin-top: 20px; 
-    }
+      margin-left: 100px;
 
-    h1 {
-      color: white;
-      text-align: left;
-    }
-
-    .box1 {
-      text-align: center; 
+      --darkblue: #040a2c;
+      --lightred: #ff0000;
+      --lightblack:#000000;
+      border: 3px solid var(--lightred);
+      box-shadow: 0 0 15px var(--lightred),inset 0 0 15px var(--lightred);
     }
 
     button {
@@ -44,21 +41,29 @@
       cursor: pointer;
     }
     .over{
-      max-width: 400px;
-      padding: 20px;
-      background-color: rgba(255, 255, 255, 0.8);
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      text-align: center; 
-      margin-top: 20px;
+      align-items: left;
     }
     .h1{
       color: #fff;
       text-align: left;
     }
-    .ov{
-      text-align: left;
-      align-items: center;
+    .ov{ 
+      text-align: center;
+    }
+    .ext1{
+      margin-top: -0px;
+    }
+    h2{
+      
+      margin-left: -850px;
+      text-align: center;
+      color: red;
+      font-size: 25px;
+    }
+    input{
+      width: 80%;
+      padding: 10px;
+
     }
   </style>
   
@@ -67,7 +72,7 @@
 <body>
   
   <%- include('navbar'); -%>
-    <div class="form">
+    <div class="ext1">
       <div class="ov">
         <h2>Raise a support ticket</h2>
         <form onsubmit="uploadData()">
