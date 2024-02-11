@@ -1,4 +1,4 @@
-# Binary
+# Binary - The Memory Maze
 
 ## Storyline 
 
