@@ -1,6 +1,6 @@
-# Storyline:
+# Storyline
 
-# Hints:
+# Hints
 A stored XSS challenge involving JS injection.
 The challenge consists of a customer support website.
 Users can send support tickets, which will be read by a bot.
