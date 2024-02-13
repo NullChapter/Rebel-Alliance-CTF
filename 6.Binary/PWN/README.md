@@ -1,7 +1,3 @@
-heap pwn！
-
-Come and try the (maybe) easist heap pwn in the world!
-
 #Hints
 1. Understand the source code
 2. Find out the bug
@@ -13,9 +9,5 @@ Heap keeps the "buffers" that the size can only be decided in runtime. For examp
    PIE will be disabled
 4. Exploit
    Exploit and invoke the shell to get the flag
-## Flag
 
-```
-NUll{rions_blr_buff}
-```
 
