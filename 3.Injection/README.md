@@ -1,4 +1,6 @@
-# OWASP Top 10 CTF Challenge - Injection (Cross-Site Scripting (XSS)) (Hard)
+# Storyline:
+
+# Hints:
 A stored XSS challenge involving JS injection.
 The challenge consists of a customer support website.
 Users can send support tickets, which will be read by a bot.
