@@ -12,6 +12,7 @@ Null{rions_blr_buff}
 ## Hints
 
 1. Understand the source code
+
 User has 3 actions:
 Add animal: allocate a new chunk to store an animal object, which contains the pointer of another new chunk with size < 64 bytes to store the user input animal name. Then put the animal pointer to the first meet empty zone of the animal list.
 Remove animal: input the zone number, free all the chunk allocated for the animal of that zone
