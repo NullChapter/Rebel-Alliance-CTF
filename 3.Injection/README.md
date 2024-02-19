@@ -30,3 +30,7 @@ DB_URI=mongodb://localhost:27017
 3. Start the MongoDB connection.
 4. Start the server using `node index.js` or `nodemon index.js`
 5. Start the bot using `node puppeteerBot.js`
+
+6. ## Docker
+   docker-compose up
+   http://localhost:3000/
