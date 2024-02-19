@@ -12,6 +12,10 @@ Null{rions_blr_buff}
 ## Hints
 
 1. Understand the source code
+User has 3 actions:
+Add animal: allocate a new chunk to store an animal object, which contains the pointer of another new chunk with size < 64 bytes to store the user input animal name. Then put the animal pointer to the first meet empty zone of the animal list.
+Remove animal: input the zone number, free all the chunk allocated for the animal of that zone
+Report name: input the zone number, call the speak function pointer inside the animal of that zone, which will print the name of the animal.
 2. Find out the bug
     a. To find out the bug, you may need to know some fundamental knowledge about heap in the c program.
     b. In short, a program has two places to keep the "buffers": stack and heap. Stack keeps the "buffers" that the size is known before the program start. For example, local variables are used by a function. Heap keeps the "buffers" that the size can only be decided in runtime. For example, an online shop VIP member username in which the system has no way to know how long is the username before the program start, as well as the length of the dynamic list storing these usernames because a modern system should allow admin to add/remove usernames.
