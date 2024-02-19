@@ -6,7 +6,8 @@ FROM node:18 AS node_build
 WORKDIR /app
 
 # Copy the Node.js application files
-COPY package*.json ./
+COPY package.json package-lock.json ./
+
 
 # Install dependencies
 RUN npm install

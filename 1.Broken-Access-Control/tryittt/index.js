@@ -7,7 +7,7 @@ const adminRoute = require('./routes/adminlogin');
 const { isAuthorized } = require('./middleware/isAuthorized');
 const userRoute = require('./routes/userlogin');
 const registerRoute = require('./routes/usersignup');
-
+const bcrypt = require('bcrypt');
 app.use(
     express.urlencoded(
         {
