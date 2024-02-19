@@ -10,4 +10,8 @@ Heap keeps the "buffers" that the size can only be decided in runtime. For examp
 4. Exploit
    Exploit and invoke the shell to get the flag
 
+##
+hosting :
+run docker-compose up in /PWN/env directory
+access the shell using   nc localhost:20006
 
