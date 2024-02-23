@@ -59,15 +59,22 @@ node index.js
 After running this command, your server should be listening on the port specified in your `.env` file.
 
 ---
-###"Story"
+##Story
+Access Control Mishap:
 
-###"In the expansive galaxy of digital systems, the Null InfoSec Chapter shines as a guiding star in cybersecurity. Armed with unmatched expertise, they defend the integrity of our digital realm against all threats, known and unknown."
+In the expansive galaxy of digital systems, the Null InfoSec Chapter shines as a guiding star in cybersecurity. Armed with unmatched expertise, they defend the integrity of our digital realm against all threats, known and unknown.
 
-###"As active participants in this cosmic battle, you are not mere contenders but guardians of the digital frontier. The Null InfoSec Chapter raises the alarm – an Access Control Mishap jeopardizes the very essence of our digital presence. Fragments of a potent artifact, scattered across distant planets, face the risk of falling into malevolent hands."
+As active participants in this cosmic battle, you are not mere contenders but guardians of the digital frontier. The Null InfoSec Chapter raises the alarm – an Access Control Mishap jeopardizes the very essence of our digital presence. Fragments of a potent artifact, scattered across distant planets, face the risk of falling into malevolent hands.
 
-###"In this pivotal moment, the Null InfoSec Chapter summons your expertise and creativity to reinforce defenses against the Access Control Mishap. Together, we must mend the chinks in our digital armor, ensuring that only those with rightful permissions can access the artifact fragments."
+In this pivotal moment, the Null InfoSec Chapter summons your expertise and creativity to reinforce defenses against the Access Control Mishap. Together, we must mend the chinks in our digital armor, ensuring that only those with rightful permissions can access the artifact fragments.
 
-###"By aiding the Null InfoSec Chapter in this mission, you not only bolster the security of the digital cosmos but also uphold the values of integrity and accountability in the realm of cybersecurity. Let us unite to confront this challenge and protect the secrets of the galaxy from exploitation by those who seek to misuse them."
+By aiding the Null InfoSec Chapter in this mission, you not only bolster the security of the digital cosmos but also uphold the values of integrity and accountability in the realm of cybersecurity. Let us unite to confront this challenge and protect the secrets of the galaxy from exploitation by those who seek to misuse them.
+
+
+
+
+
+
 
 ### Flag:
 
