@@ -60,6 +60,7 @@ After running this command, your server should be listening on the port specifie
 
 ---
 ###"Story"
+
 ###"In the expansive galaxy of digital systems, the Null InfoSec Chapter shines as a guiding star in cybersecurity. Armed with unmatched expertise, they defend the integrity of our digital realm against all threats, known and unknown."
 
 ###"As active participants in this cosmic battle, you are not mere contenders but guardians of the digital frontier. The Null InfoSec Chapter raises the alarm – an Access Control Mishap jeopardizes the very essence of our digital presence. Fragments of a potent artifact, scattered across distant planets, face the risk of falling into malevolent hands."
